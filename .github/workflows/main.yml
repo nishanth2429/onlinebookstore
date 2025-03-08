@@ -1,0 +1,9 @@
+name: online_book_store
+
+on:
+  push:
+    branch:
+      - master
+jobs:
+  build :
+    runs-on: ubunu-latest      
