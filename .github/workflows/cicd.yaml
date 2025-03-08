@@ -5,10 +5,10 @@ on:
     branch:
       - master
 jobs:
-  build :
-    runs-on: ubunu-latest
+  build:
+    runs-on: ubuntu-latest
 
-  steps:
-  - name: Checkout code
-    uses: actions/checkout@v2
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
     
