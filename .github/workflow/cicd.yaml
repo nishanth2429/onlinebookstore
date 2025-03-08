@@ -1,0 +1,14 @@
+name: online_book_store
+
+on:
+  push:
+    branch:
+      - master
+jobs:
+  build :
+    runs-on: ubunu-latest
+
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
