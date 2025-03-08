@@ -9,6 +9,6 @@ jobs:
     runs-on: ubunu-latest
 
   steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+  - name: Checkout code
+    uses: actions/checkout@v2
     
